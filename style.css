@@ -1,0 +1,50 @@
+/* common style */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header style */
+.h-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+.h-left{
+    display: flex;
+}
+.h-left img{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+.h-left h2{
+    font-size: 30px;
+}
+.h-left h2 span{
+    color: rgb(247, 231, 5);
+}
+.h-right{
+    display: flex;
+    align-items: center;
+}
+.h-right ul{
+    display: flex;
+}
+.h-right ul li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+
+/* banner section style */
+.banner{
+    background-color: rgb(249, 246, 246);
+}
+.b-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10%;
+}
